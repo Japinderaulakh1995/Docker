@@ -10,4 +10,3 @@ RUN mv apache-tomcat-9.0.65/* /usr/local/tomcat/
 EXPOSE 8080
 CMD ["/usr/local/tomcat/catalina.sh", "run"]
 
-#endoffile
