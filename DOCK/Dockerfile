@@ -7,3 +7,4 @@ RUN tar -xvzf apache-tomcat-9.0.65.tar.gz && mv apache-tomcat-9.0.65/* /usr/loca
 EXPOSE 8080
 CMD ["/usr/local/tomcat/catalina.sh", "run"]
 
+#end
